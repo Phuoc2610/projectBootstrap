@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.15;
+    color: rgba(22, 28, 45, 0.7);
+}
+/* Header */
+header {
+    background:
+    linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
+    url(../img/banner1.jpeg);
+    height: 60vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    color: white;
+}
+header form .btn i {
+    font-size: 18px !important;
+}
+header .navbar > .form-inline {
+    position: relative;
+}
+header .navbar > .form-inline > input {
+    padding: 10px 50px 10px 20px;
+    height: 45px;
+}
+header .navbar > .form-inline .fa-search {
+    position: absolute;
+    top: 36%;
+    right: 10%;
+    color: rgba(22, 28, 45, 0.7);
+    font-size: 15px;
+    cursor: pointer;
+}
+header .navbar-brand {
+    font-size: 2.1em !important;
+    font-weight: 700;
+    color: #fff !important;
+}
+header .navbar-light .navbar-toggler {
+    text-align: center;
+    color: #fbfdfb;
+    border-color: rgba(0, 0, 0, 0);
+}
+header nav .navbar-toggler {
+    font-size: 2em !important;
+}
+header .btn-close {
+    background: #ff6600;
+    color: white !important;
+    opacity: 1;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0 15px !important;
+    border-radius: 6px;
+    border-color: #ff6600;
+    border: 0.7px solid rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+}
+header .btn-close > span {
+   font-size: 22px !important;
+   font-weight: 600 !important;
+   line-height: 40px;
+}
+header .modal-content {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+} 
+header .modal-content .modal-header {
+    border-bottom: none;
+}
+header .modal-body nav {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    color: #fff;
+    -webkit-transition: color 0.2s;
+    transition: color 0.5s;
+} 
+header .modal-body nav li:hover {
+    color: #ff6600;
+}
+header .modal-body nav {
+    margin-top: 100px;
+}
+
+header .modal-body li {
+    list-style: none;
+    padding: 10px 0;
+}
+header .modal-dialog {
+    margin: 0;
+}
+header .mt-10 {
+    margin-top: 10%;
+}
+header .card {
+    border: 0;
+    background-color:transparent;
+    width: 60vw;
+}
+header .card .card-title {
+    font-size: 5vh;
+    font-weight: 700;
+    line-height: 6vh;
+    color: white;
+}
+header .card .card-icon {
+    padding: 13px 45px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+}
+header .card .card-icon:hover {
+    color: #ff6600;
+    background: white;
+}
