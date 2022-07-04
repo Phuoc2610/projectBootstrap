@@ -124,7 +124,235 @@ header .card .card-icon:hover {
     color: #ff6600;
     background: white;
 }
+@media (min-width:801px) {
+    header .card {
+        border: 0;
+        background-color:transparent;
+        width: 40vw;
+    }
 
+    header .card .card-title {
+        font-size: 4vh;
+        font-weight: 700;
+        line-height: 5vh;
+        color: white;
+    }
+}
+
+@media (min-width:602px) and (max-width:800px) {
+    header {
+        min-height: 600px;
+        width: 100%;
+    }
+    header .card {
+        border: 0;
+        background-color:transparent;
+        width: 90vw;
+    }
+    header .navbar-brand {
+        font-size: 1.9em !important;
+
+        color: #fff !important;
+    }
+    header nav .navbar-toggler {
+        font-size: 1.9em !important;
+    }
+    header .form-inline {
+        display: none;
+    }
+    header .card {
+        border: 0;
+        background-color:transparent;
+        width: 85vw !important;
+    }
+
+    header .card .card-title {
+        font-size: 3vh;
+        font-weight: 700;
+        line-height: 4vh;
+        color: white;
+    }
+}
+
+@media (max-width: 693px) {
+
+    header .card {
+        border: 0;
+        background-color:transparent;
+        width: 70vw;
+    }
+}
+@media (max-width:601px) {
+    header {
+        width: 100%;
+        min-height: 600px;
+    }
+    header .form-inline {
+        display: none;
+    }
+    header .navbar-brand {
+        font-size: 1.8em !important;
+
+    }
+    header nav .navbar-toggler {
+        font-size: 1.8em !important;
+    }
+    header .modal-body nav {
+        font-size: 16px;
+    } 
+    header .mt-10 {
+        margin-top: 30%;
+    }
+    header .card {
+        border: 0;
+        background-color:transparent;
+        width: 90vw;
+    }
+    header .card .card-title {
+        font-size: 3vh;
+        font-weight: 700;
+        line-height: 4vh;
+        color: white;
+    }
+    header .card .card-icon {
+        padding: 10px 20px;
+        border: 1px solid white;
+        color: white;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 800px) {
+    header .btn {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 415px) {
+    header {
+        min-height: 55vh;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        min-height: 65vh;
+    }
+}
+header .btn .fa {
+    color: white;
+}
+
+/* ABOUT */
+
+.about h6 {
+    color: #FF6600;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    display: block;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.about h3 {
+    color: black;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 550;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* Deal */
+
+.deal__img{
+    background-image: url(../img/banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ 
+    width: 100%;
+    min-height: 600px;
+ }
+ .deal__img::before{
+     content: "";
+     background:#100f1375;
+ 
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+ }
+ .deal__content{
+     background-color: #ff6600;
+     
+ }
+ .deal__content h4{
+     font-size: 20px;
+     color: white;
+     letter-spacing: 1px;
+     font-weight: 400;
+     font-family: 'Pacifico', cursive;
+ }
+ .deal__content h2{
+     font-size: 38px;
+     font-weight: 600;
+     color: #232121;
+ }
+ .deal__content p{
+     color: #ffdfc9;
+     padding: 10px 0;
+     font-size: 18px;
+ }
+ .deal__title{
+     padding: 70px 60px ;
+ }
+ .deal__detail{
+     padding-top: 40px;
+ }
+ .deal__detail h5{
+     font-size: 22px;
+     padding-top: 25px;
+     color: #232121;
+     font-weight: 700;
+ }
+ 
+ .deal__detail i{
+     width: 70px;
+     height: 70px;
+     background-color: white;
+     text-align: center;
+     line-height: 70px;
+     font-size: 22px;
+     border-radius: 5px;
+     
+ }
+ .deal__detail i::before{
+     color: #ff6600;
+     transition: all 0.5s;
+ }
+ .deal__detail i:hover::before{
+     color: #ffc600;
+     transition: all 0.5s;
+ }
+ 
+ @media screen and (max-width:992px) {
+     .deal__img{
+         min-height: 200px;
+     }
+ }
+ @media screen and (max-width:992px) {
+     .deal__title{
+         padding: 70px 40px 0 40px;
+     }
+     
+ }
 /* NEW */
 
 .new {
@@ -164,7 +392,6 @@ header .card .card-icon:hover {
 .new .img6 {
     background: url(../img/g6.jpeg);
 }
-
 .new h3 {
     font-size: 20px;
     font-weight: 400;
@@ -172,6 +399,52 @@ header .card .card-icon:hover {
     letter-spacing: 1px;
     color: #ff6600;
     font-family: 'Pacifico', cursive;
+}
+.new h1 {
+    font-size: 38px;
+    line-height: 40px;
+    color: #232121;
+    font-weight: 600;
+}
+
+ .new__item1 .item-layout {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0,
+     rgba(0, 0, 0, 0.53) 69%, 
+     rgb(27 27 27 / 76%) 100%);
+     border-radius: 10px;
+
+}
+
+.new__item1:hover .item-layout {
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.1) 0,
+     rgba(0, 0, 0, 0.53) 69%, 
+     rgb(27 27 27 / 76%) 100%);
+}
+.new .new__list .new__item1 .new__item--content {
+     position: absolute;
+     bottom: 0;
+     left: 10px;
+ }
+
+.new__item--content h5 {
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.new__item--content p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffc600;
+    font-weight: 600;
+    opacity: 0.9;
 }
 
 @media (max-width: 750px) {
@@ -268,29 +541,4 @@ header .card .card-icon:hover {
         color: white;
         background: #FF6600;
     }
-}
-
-/* ABOUT */
-
-.about h6 {
-    color: #FF6600;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    display: block;
-    font-family: 'Pacifico', cursive;
-
-}
-
-.about h3 {
-    color: black;
-    font-size: 40px;
-    line-height: 50px;
-    font-weight: 550;
-}
-
-.about p {
-    font-size: 18px;
-    line-height: 28px;
 }
