@@ -14,7 +14,7 @@ header {
     background:
     linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
     url(../img/banner1.jpeg);
-    height: 60vh;
+    height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -864,3 +864,49 @@ ytp-cued-thumbnail-overlay-image {
         margin-top: 30vh;
     }
 }
+
+
+
+
+/* BackToTop */
+.backToTop{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #ff6600;
+    font-size: 5vh;
+    border-radius: 50%;
+    color: white;
+    opacity:0.7;
+    visibility: hidden;
+}
+.backToTopL:hover {
+    color: white;
+}
+.cd-top {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    position: fixed;
+    right: 5px;
+    bottom: 50px;
+    background-color: #fd7e14;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cd-top:hover {
+    color: white;
+    text-decoration: none;
+}
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 0;
+  }
+.cd-top--fade-out { 
+      opacity: 1;
+  }
