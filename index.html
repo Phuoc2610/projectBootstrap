@@ -355,7 +355,29 @@
         </div>
     </section>
     <!-- Hung -->
-    <section class="blog"></section>
+    <section class="blog">
+        <div class="blog__content container px-1" id="blog">
+            <div class="blog__info">
+                <div class="blog__info--before"></div>
+                <a href="#blog" onclick="lightbox_open();">
+                    <span class="video-play-icon text-center play-view">
+                        <span class="fa fa-play" aria-hidden="true"></span>
+                    </span>
+                </a>
+
+                <div id="light">
+                    <div class="light-container container">
+                        <div class="VisaChipCardVideo">
+                            <iframe src="https://www.youtube.com/embed/rkoKjUayyS8"
+                                onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+                                style="height:400px;width:80vw;border:none;overflow:hidden;"></iframe>
+                            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Phuoc -->
     <section class="post"></section>
     <!-- Hung -->
