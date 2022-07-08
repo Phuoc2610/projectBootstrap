@@ -1317,7 +1317,7 @@ color: #ddd;
     visibility: hidden;
 }
 .backToTop:hover{
-    color: #fff;
+    color: black;
 }
 .cd-top--is-visible {
     visibility: visible;
@@ -1340,7 +1340,6 @@ color: #ddd;
     text-align: center;
     justify-content:space-around;
 }
-
 .cd-box i{
   font-size: 16px;
   cursor: pointer;
@@ -1364,3 +1363,69 @@ color: #ddd;
     transition: all 0.5s;
 }
 
+/* Theme Light-dark */
+#switchButton #sun {
+    display: none;
+}
+
+#switchButton #moon {
+    display: block;
+}
+
+.dark #switchButton #sun {
+    display: block;
+}
+
+.dark #switchButton #moon {
+    display: none;
+}
+
+.dark .about,
+.dark .new,
+.dark .mt-4,
+.dark .post,
+.dark .post .card,
+.dark .contact__icon i
+ {
+    background-color: #282828 !important;
+}
+
+.dark#body,
+.dark .menu,
+.dark .number__item,
+.dark input,
+.dark .blog,
+.dark .slider .people-info
+{
+    background-color: #232220 !important;
+    border: none;
+}
+
+
+.dark form > i,
+.dark .about h3,
+.dark .color-w,
+.dark .menu__top h4 > .color-w,
+.dark .card-body,
+.dark .card-body a,
+.dark .post__header h3 ,
+.dark .slider,
+.dark .slider h3,
+.dark .slider q
+ {
+    color:white !important;
+}
+
+
+.dark .menu__top .icon i {
+    color: #ff6600;
+}
+
+.dark .menu__item .color-w {
+    color: #c2d0da !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dark .b-c {
+    border-color: rgba(255, 255, 255, 0.1);
+}
